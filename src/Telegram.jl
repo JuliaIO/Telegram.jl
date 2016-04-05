@@ -1,5 +1,4 @@
 module Telegram
-
-# package code goes here
-
-end # module
+include("c_api.jl")
+include("telegram_common.jl")
+end
